@@ -1,0 +1,185 @@
+#mainImg{
+    width:1365px;
+    height:659px;
+    position: relative;
+    box-sizing: border-box;
+    z-index: -500;
+}
+#left, #right {
+    position: absolute;
+    width: 532px;
+    height: 599px;
+    display: inline-block;
+}
+#left{  
+    top: 30px;
+    left:150px;
+    display: inline-block;
+    background-color: rgb(240, 235, 235);
+    z-index: 2;
+}
+#right{
+    top: 30px;
+    left:682px;
+    display: inline-block;
+    background-color: rgb(243, 241, 241);
+    z-index: 3;
+}
+#score1, #score2 {
+    position: absolute;
+    bottom: 110px;
+    left: 206px;
+    width: 110px;
+    height: 85px;
+    background-color : rgb(224, 73, 73);
+    z-index: 10;
+}
+#player1, #player2{
+    position: absolute;
+    top:110px;
+    left:101px;
+    width: 320px;
+    height: 205px;
+    z-index: 15;
+}
+#player1 > h1, #player2 > h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 3.5em;
+    margin-bottom: 0.3em;
+}
+#player1 > h2, #player2 > h2{
+    text-align: center;
+    color: rgb(224, 73, 73);
+    font-size: 7em;
+}
+#newGame{
+    position: absolute;
+    top: 50px;
+    left:602px;
+    z-index: 100;
+    margin-top: 0.4em;
+}
+#newGameIcon{
+    display: inline-block;
+    padding-bottom: 0.4em;
+    width: 35px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+#newGame > h3 {
+    display: inline-block;
+    padding-top: 0.2em;
+    margin-left: 0.4em;
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+#rollDice{
+    position: absolute;
+    bottom: 200px;
+    left: 602px;
+    z-index: 100;
+}
+#rollDiceIcon{
+    display: inline-block;
+    padding-bottom: 0.4em;
+    width: 35px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+#rollDice > h3{
+    display: inline-block;
+    padding-top: 0.2em;
+    margin-left: 0.4em;
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+#hold{
+    position: absolute;
+    bottom: 134px;
+    left: 622px;
+    z-index: 101;
+}
+#holdIcon{
+    display: inline-block;
+    padding-bottom: 0.4em;
+    width: 35px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+#hold > h3{
+    display: inline-block;
+    padding-top: 0.2em;
+    margin-left: 0.4em;
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+#score1 > h1, #score2 > h1{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+#score1 > h2, #score2 > h2{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2em;
+    color: white;
+}
+#winner > h2{
+    position: absolute;
+    top:320px;
+    left:315px;
+    color: green;
+    font-family: sans-serif;
+    font-size: 6em;
+    z-index: 3000;
+    display: none;
+}
+#firstDice >  img{
+    position: absolute;
+    width: 100px;
+    top: 120px;
+    left: 631px;
+    z-index: 2000;
+}
+#secondDice > img{
+    position: absolute;
+    width: 100px;
+    top: 280px;
+    left: 631px;
+    z-index: 2000;
+}
+#newGame:hover > h3,#rollDice:hover > h3,#hold:hover > h3{
+    font-weight: bold;
+    margin-left: 0.3em;
+}
+#newGame:hover > img,#rollDice:hover > img,#hold:hover > img{
+    font-weight: bold;
+    margin-right: 0.3em;
+}
+ #finalScore{
+    box-sizing: border-box;
+    width: 175px;
+    height: 55px;
+    position: absolute;
+    z-index: 200;
+    bottom: 58px;
+    left: 602px;
+    border: 1px solid black;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    color: black;
+    padding: 0.8em;
+}
+
+#dot1, #dot2{
+    width: 25px;
+    position: absolute;
+    top:12px;
+    left:321px;
+    z-index: 200;
+}
